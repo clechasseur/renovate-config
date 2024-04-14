@@ -20,6 +20,11 @@
     {
       "matchManagers": ["github-actions"],
       "schedule": ["before 6am on Monday"]
+    },
+    {
+      "matchManagers": ["cargo"],
+      "matchPackageNames": ["strum", "strum_macros"],
+      "groupName": "strum crates"
     }
   ]
 }
