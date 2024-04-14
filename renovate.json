@@ -13,6 +13,11 @@
       "rangeStrategy": "bump"
     },
     {
+      "matchManagers": ["npm"],
+      "matchPackagePrefixes": ["@clechasseur"],
+      "enabled": false
+    },
+    {
       "matchManagers": ["github-actions"],
       "schedule": ["before 6am on Monday"]
     }
