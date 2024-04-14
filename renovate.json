@@ -14,7 +14,7 @@
     },
     {
       "matchManagers": ["github-actions"],
-      "schedule": ["weekly"]
+      "schedule": ["before 6am on Monday"]
     }
   ]
 }
