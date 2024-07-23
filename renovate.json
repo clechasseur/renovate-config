@@ -35,6 +35,10 @@
     },
     {
       "matchManagers": ["cargo"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchManagers": ["cargo"],
       "matchPackagePrefixes": ["strum"],
       "groupName": "strum crates"
     },
