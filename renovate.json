@@ -71,6 +71,11 @@
       "matchManagers": ["cargo"],
       "matchPackagePrefixes": ["tracing"],
       "groupName": "tracing crates"
+    },
+    {
+      "matchManagers": ["cargo"],
+      "matchPackageNames": ["clap", "clap-verbosity-flag"],
+      "groupName": "clap crates"
     }
   ]
 }
