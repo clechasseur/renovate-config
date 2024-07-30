@@ -76,6 +76,11 @@
       "matchManagers": ["cargo"],
       "matchPackageNames": ["clap", "clap-verbosity-flag"],
       "groupName": "clap crates"
+    },
+    {
+      "matchManagers": ["cargo"],
+      "matchPackagePrefixes": ["toml"],
+      "groupName": "toml crates"
     }
   ]
 }
