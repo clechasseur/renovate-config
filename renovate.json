@@ -29,6 +29,11 @@
     },
     {
       "matchManagers": ["github-actions"],
+      "matchPackagePrefixes": ["clechasseur/rs-"],
+      "groupName": "clechasseur Rust actions"
+    },
+    {
+      "matchManagers": ["github-actions"],
       "matchPackageNames": ["clechasseur/rustsec-audit-check"],
       "enabled": false,
       "groupName": "Fork of rustsec/audit-check until it's updated to Node 20.x; do not update"
