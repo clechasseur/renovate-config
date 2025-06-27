@@ -14,8 +14,29 @@
     },
     {
       "matchManagers": ["npm"],
-      "matchPackagePrefixes": ["@clechasseur"],
+      "matchPackagePrefixes": ["@clechasseur/"],
       "enabled": false
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackagePrefixes": ["@actions/"],
+      "groupName": "GitHub action libraries"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackagePrefixes": ["@types/"],
+      "groupName": "Type wrapper libraries",
+      "extends": ["schedule:monthly"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["\beslint\b"],
+      "groupName": "ESLint libraries"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["\bjest\b"],
+      "groupName": "Jest libraries"
     },
     {
       "matchManagers": ["github-actions"],
