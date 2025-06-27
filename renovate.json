@@ -20,7 +20,7 @@
     {
       "matchManagers": ["npm"],
       "matchPackagePrefixes": ["@actions/"],
-      "groupName": "GitHub action libraries"]
+      "groupName": "GitHub action libraries"
     },
     {
       "matchManagers": ["npm"],
