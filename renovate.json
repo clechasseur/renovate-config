@@ -24,7 +24,7 @@
     },
     {
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@types/*"],
+      "matchPackageNames": ["@types/*", "!/\\bjest\\b/"],
       "groupName": "Type wrapper libraries",
       "extends": ["schedule:monthly"]
     },
