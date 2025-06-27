@@ -14,28 +14,28 @@
     },
     {
       "matchManagers": ["npm"],
-      "matchPackagePrefixes": ["@clechasseur/"],
+      "matchPackageNames": ["@clechasseur/*"],
       "enabled": false
     },
     {
       "matchManagers": ["npm"],
-      "matchPackagePrefixes": ["@actions/"],
+      "matchPackageNames": ["@actions/*"],
       "groupName": "GitHub action libraries"
     },
     {
       "matchManagers": ["npm"],
-      "matchPackagePrefixes": ["@types/"],
+      "matchPackageNames": ["@types/*"],
       "groupName": "Type wrapper libraries",
       "extends": ["schedule:monthly"]
     },
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["\beslint\b"],
+      "matchPackageNames": ["/\beslint\b/"],
       "groupName": "ESLint libraries"
     },
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["\bjest\b"],
+      "matchPackageNames": ["/\bjest\b/"],
       "groupName": "Jest libraries"
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "matchManagers": ["github-actions"],
-      "matchPackagePrefixes": ["clechasseur/rs-"],
+      "matchPackageNames": ["clechasseur/rs-*"],
       "groupName": "clechasseur Rust actions"
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "matchManagers": ["cargo"],
-      "matchPackagePrefixes": ["strum"],
+      "matchPackageNames": ["strum*"],
       "groupName": "strum crates"
     },
     {
@@ -75,27 +75,27 @@
     },
     {
       "matchManagers": ["cargo"],
-      "matchPackagePrefixes": ["diesel", "deadpool"],
+      "matchPackageNames": ["diesel*", "deadpool*"],
       "groupName": "database/pooling crates"
     },
     {
       "matchManagers": ["cargo"],
-      "matchPackagePrefixes": ["utoipa"],
+      "matchPackageNames": ["utoipa*"],
       "groupName": "utoipa crates"
     },
     {
       "matchManagers": ["cargo"],
-      "matchPackagePrefixes": ["serde", "csv"],
+      "matchPackageNames": ["serde*", "csv*"],
       "groupName": "serde crates"
     },
     {
       "matchManagers": ["cargo"],
-      "matchPackagePatterns": ["^log$", "_logger$", "^test-log$"],
+      "matchPackageNames": ["log", "/_logger$/", "test-log"],
       "groupName": "log crates"
     },
     {
       "matchManagers": ["cargo"],
-      "matchPackagePrefixes": ["tracing"],
+      "matchPackageNames": ["tracing*"],
       "groupName": "tracing crates"
     },
     {
@@ -105,7 +105,7 @@
     },
     {
       "matchManagers": ["cargo"],
-      "matchPackagePrefixes": ["toml"],
+      "matchPackageNames": ["toml*"],
       "groupName": "toml crates"
     }
   ]
