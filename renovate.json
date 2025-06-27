@@ -30,12 +30,12 @@
     },
     {
       "matchManagers": ["npm"],
-      "matchPackageNames": ["/\beslint\b/"],
+      "matchPackageNames": ["/\\beslint\\b/"],
       "groupName": "ESLint libraries"
     },
     {
       "matchManagers": ["npm"],
-      "matchPackageNames": ["/\bjest\b/"],
+      "matchPackageNames": ["/\\bjest\\b/"],
       "groupName": "Jest libraries"
     },
     {
