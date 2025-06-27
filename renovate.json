@@ -24,18 +24,18 @@
     },
     {
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@types/*", "!/\\bjest\\b/"],
+      "matchPackageNames": ["@types/*", "!@types/jest"],
       "groupName": "Type wrapper libraries",
       "extends": ["schedule:monthly"]
     },
     {
       "matchManagers": ["npm"],
-      "matchPackageNames": ["/\\beslint\\b/"],
+      "matchPackageNames": ["/([^A-Za-z0-9]|^)eslint([^A-Za-z0-9]|$)/"],
       "groupName": "ESLint libraries"
     },
     {
       "matchManagers": ["npm"],
-      "matchPackageNames": ["/\\bjest\\b/"],
+      "matchPackageNames": ["/([^A-Za-z0-9]|^)jest([^A-Za-z0-9]|$)/"],
       "groupName": "Jest libraries"
     },
     {
