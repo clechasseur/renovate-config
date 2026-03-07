@@ -107,6 +107,11 @@
       "matchManagers": ["cargo"],
       "matchPackageNames": ["toml*"],
       "groupName": "toml crates"
+    },
+    {
+      "matchManagers": ["cargo"],
+      "matchPackageNames": ["reqwest*", "reessaie"],
+      "groupName": "reqwest-related crates"
     }
   ]
 }
