@@ -43,6 +43,11 @@
     },
     {
       "matchManagers": ["github-actions"],
+      "matchPackageNames": ["cargo-bins/cargo-binstall"],
+      "enabled": false
+    },
+    {
+      "matchManagers": ["github-actions"],
       "matchPackageNames": ["taiki-e/install-action"],
       "extends": ["schedule:monthly"],
       "groupName": "GitHub actions that are updated toooooooooo often"
