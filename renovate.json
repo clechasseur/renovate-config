@@ -64,6 +64,12 @@
       "groupName": "Fork of rustsec/audit-check until it's updated to Node 20.x; do not update"
     },
     {
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["clechasseur/rust-cache"],
+      "enabled": false,
+      "groupName": "Fork of Swatinem/rust-cache with a change to support binstalled binaried; do not update"
+    },
+    {
       "matchManagers": ["cargo"],
       "rangeStrategy": "bump"
     },
