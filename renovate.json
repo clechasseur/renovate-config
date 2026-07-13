@@ -3,7 +3,7 @@
   "extends": [
     "config:recommended",
     "helpers:disableTypesNodeMajor",
-    "npm:unpublishSafe",
+    "security:minimumReleaseAgeNpm",
     ":disableRateLimiting"
   ],
   "packageRules": [
