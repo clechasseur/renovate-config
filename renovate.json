@@ -71,7 +71,7 @@
     },
     {
       "matchManagers": ["cargo"],
-      "rangeStrategy": "bump"
+      "rangeStrategy": "update-lockfile"
     },
     {
       "matchManagers": ["cargo"],
